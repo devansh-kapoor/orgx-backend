@@ -32,12 +32,12 @@ exports.AppModule = AppModule = __decorate([
         imports: [
             config_1.ConfigModule.forRoot(),
             typeorm_1.TypeOrmModule.forRoot({
-                type: 'postgres',
-                host: 'ep-green-breeze-a4fsyfx5-pooler.us-east-1.aws.neon.tech',
+                type: "postgres",
+                host: "ep-green-breeze-a4fsyfx5-pooler.us-east-1.aws.neon.tech",
                 port: 5432,
-                username: 'default',
-                password: 'AVC98JamIEWq',
-                database: 'verceldb',
+                username: "default",
+                password: "AVC98JamIEWq",
+                database: "verceldb",
                 entities: [__dirname + '/../**/*.entity.{js,ts}'],
                 synchronize: true,
             }),
