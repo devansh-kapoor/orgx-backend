@@ -24,7 +24,7 @@ import { FileModule } from './fileUpload/file.module';
       host: "ep-green-breeze-a4fsyfx5-pooler.us-east-1.aws.neon.tech",
       port: 5432,
       username: "default",
-      password: "AVC98JamIEWq",
+      password: "QpkMKSP4mNe6",
       database: "verceldb",
       entities: [__dirname + '/../**/*.entity.{js,ts}'],
       synchronize: true,
